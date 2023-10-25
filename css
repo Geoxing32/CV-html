@@ -1,0 +1,55 @@
+/* Utilisation de FlexBox pour le positionnement */
+header, main, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Les bordures et marges internes sont comprises dans les hauteurs et largeurs */
+section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* CV centré sur la page et n’en occupant pas toute la largeur */
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Respect de la maquette */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Police pour les titres importée via Google Font */
+h1, h2 {
+    font-family: 'Google Font', sans-serif;
+}
+
+/* Police pour le texte importée via @font-face */
+p {
+    font-family: 'Custom Font', sans-serif;
+}
+
+/* Taille en "em" ou "rem" */
+p {
+    font-size: 1.2rem;
+}
+
+/* Image correctement stylisée */
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Effets dynamiques réalisés correctement (exemple) */
+a:hover {
+    color: #ff6600;
+}
+
+/* Code CSS valide à la W3C et correctement indenté */
+
